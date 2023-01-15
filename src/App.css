@@ -60,14 +60,23 @@ img {
   align-items: center;
 }
 
-.display {
+.output {
   flex: 1;
   width: 100%;
-  padding: 30px;
+  padding: 10px;
   display: flex;
-  justify-content:flex-end;
-  align-items: center;
+  flex-direction: column;
+  justify-content:right;
+  align-items: flex-end ;
+  gap: 10px;
+}
 
+.previous-operand{
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+.current-operand{
+  font-size: 2rem;
 }
 
 .buttons {
